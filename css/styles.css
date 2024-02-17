@@ -39,11 +39,23 @@ body {
 }
 
 .navbar .navbar-nav {
-  font-size: 20px;
+  display: inline-block;
 }
 
 .navbar .navbar-nav a {
+  font-size: 20px;
   color: #fff;
-  padding: 15px;
+  margin: 7px;
+  position: relative;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: .5s;
 }
 
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav span {
+  
+}
