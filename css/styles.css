@@ -73,3 +73,11 @@ body {
   transform: scale(1) translateY(0);
   opacity: 1;
 }
+
+.navbar .navbar-menu {
+  color: #fff;
+}
+
+.navbar .navbar-menu :hover {
+  color: var(--primary);
+}
