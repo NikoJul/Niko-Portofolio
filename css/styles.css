@@ -25,5 +25,25 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  
+  z-index: 999;
 }
+
+.navbar .navbar-logo {
+  color: #fff;
+  font-size: 35px;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+  font-style: italic;
+}
+
+.navbar .navbar-nav {
+  font-size: 20px;
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  padding: 15px;
+}
+
