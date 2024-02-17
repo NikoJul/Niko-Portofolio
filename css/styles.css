@@ -14,6 +14,9 @@
 
 body {
   font-family: 'poppins', Sans-Serif;
+  height: 5000px;
+  background-color: var(--bg);
+  color: #fff;
 }
 
 .navbar {
@@ -88,6 +91,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 5%;
+  background-image: ;
 }
 
 .home .home-content {
@@ -109,4 +113,27 @@ body {
 
 .home .home-content p {
   font-size: 15px;
+}
+
+.home .home-content .home-cv {
+  width: 345px;
+  height: 50px;
+  display: flex;
+  background-color: transparent;
+  margin-top: 15px;
+}
+
+.home .home-content .home-cv a {
+  width: 150px;
+  height: 100%;
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 9px;
+  padding-left: 3px;
 }
