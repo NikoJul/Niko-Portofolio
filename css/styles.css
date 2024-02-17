@@ -1,5 +1,6 @@
 :root {
   --primary: #48dfe0;
+  --bg: #091b28;
 }
 
 * {
@@ -11,4 +12,6 @@
   box-sizing: border-box;
 }
 
-
+body {
+  font-family: 'poppins', Sans-Serif;
+}
