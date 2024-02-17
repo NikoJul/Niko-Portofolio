@@ -81,3 +81,32 @@ body {
 .navbar .navbar-menu :hover {
   color: var(--primary);
 }
+
+.home {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.home .home-content {
+  max-width: 600px;
+}
+
+.home .home-content h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.home .home-content h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.home .home-content p {
+  font-size: 15px;
+}
