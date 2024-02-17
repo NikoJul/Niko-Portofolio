@@ -176,4 +176,16 @@ body {
 .about .about-content {
   display: flex;
 }
+
+.about .about-content img {
+  width: 600px;
+  height: 600px;
 }
+
+.about .about-content p {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+
