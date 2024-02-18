@@ -200,20 +200,23 @@ body {
   height: 1000px;
 }
 
-.portofolio .portofolio-content .pc-1 {
+.portofolio .portofolio-content .pc-1,
+.portofolio .portofolio-content .pc-2 {
   display: flex;
   padding: 10px;
   height: 300px;
   width: 100%;
 }
 
-.portofolio .portofolio-content .pc-1 img {
+.portofolio .portofolio-content .pc-1 img,
+.portofolio .portofolio-content .pc-2 img {
   height: 100%;
   width: 50%;
   margin-right: 20px;
 }
 
-.portofolio .portofolio-content .pc-1 p {
+.portofolio .portofolio-content .pc-1 p,
+.portofolio .portofolio-content .pc-2 p {
   text-align: center;
   width: 50%;
 }
