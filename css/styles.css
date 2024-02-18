@@ -79,8 +79,8 @@ body {
 }
 
 .navbar .navbar-menu {
-}
   color: #fff;
+}
 
 .navbar .navbar-menu :hover {
   color: var(--primary);
