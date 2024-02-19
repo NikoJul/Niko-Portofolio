@@ -14,7 +14,7 @@
 
 body {
   font-family: 'poppins', Sans-Serif;
-  height: 5000px;
+  height: 5500px;
   background-color: var(--bg);
   color: #fff;
 }
@@ -197,12 +197,17 @@ body {
 
 .portofolio .portofolio-content {
   border: 5px solid var(--primary);
-  height: 1000px;
+  height: 2400px;
 }
 
 .portofolio .portofolio-content .pc-1,
 .portofolio .portofolio-content .pc-2,
-.portofolio .portofolio-content .pc-3 {
+.portofolio .portofolio-content .pc-3,
+.portofolio .portofolio-content .pc-4,
+.portofolio .portofolio-content .pc-5,
+.portofolio .portofolio-content .pc-6,
+.portofolio .portofolio-content .pc-7,
+.portofolio .portofolio-content .pc-8 {
   display: flex;
   padding: 10px;
   height: 300px;
@@ -211,7 +216,12 @@ body {
 
 .portofolio .portofolio-content .pc-1 img,
 .portofolio .portofolio-content .pc-2 img,
-.portofolio .portofolio-content .pc-3 img {
+.portofolio .portofolio-content .pc-3 img,
+.portofolio .portofolio-content .pc-4 img,
+.portofolio .portofolio-content .pc-5 img,
+.portofolio .portofolio-content .pc-6 img,
+.portofolio .portofolio-content .pc-7 img,
+.portofolio .portofolio-content .pc-8 img {
   height: 100%;
   width: 50%;
   margin-right: 20px;
@@ -219,7 +229,12 @@ body {
 
 .portofolio .portofolio-content .pc-1 p,
 .portofolio .portofolio-content .pc-2 p,
-.portofolio .portofolio-content .pc-3 p {
+.portofolio .portofolio-content .pc-3 p,
+.portofolio .portofolio-content .pc-4 p,
+.portofolio .portofolio-content .pc-5 p,
+.portofolio .portofolio-content .pc-6 p,
+.portofolio .portofolio-content .pc-7 p,
+.portofolio .portofolio-content .pc-8 p {
   text-align: center;
   width: 50%;
 }
