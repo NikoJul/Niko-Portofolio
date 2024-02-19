@@ -201,7 +201,8 @@ body {
 }
 
 .portofolio .portofolio-content .pc-1,
-.portofolio .portofolio-content .pc-2 {
+.portofolio .portofolio-content .pc-2,
+.portofolio .portofolio-content .pc-3 {
   display: flex;
   padding: 10px;
   height: 300px;
@@ -209,14 +210,16 @@ body {
 }
 
 .portofolio .portofolio-content .pc-1 img,
-.portofolio .portofolio-content .pc-2 img {
+.portofolio .portofolio-content .pc-2 img,
+.portofolio .portofolio-content .pc-3 img {
   height: 100%;
   width: 50%;
   margin-right: 20px;
 }
 
 .portofolio .portofolio-content .pc-1 p,
-.portofolio .portofolio-content .pc-2 p {
+.portofolio .portofolio-content .pc-2 p,
+.portofolio .portofolio-content .pc-3 p {
   text-align: center;
   width: 50%;
 }
