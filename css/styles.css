@@ -251,10 +251,7 @@ body {
   width: 50%;
 }
 
-.input-box,
-.input-box1 {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  width: 600px;
+.container-c {
+  justify-content: center;
+  align-items: center;
 }
