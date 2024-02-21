@@ -257,4 +257,5 @@ body {
 
 .container-c .input-box {
   display: flex;
+  justify-content: space-between;
 }
