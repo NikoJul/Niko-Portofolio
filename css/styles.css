@@ -261,3 +261,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.container-c .input-box .i-name,
+.container-c .input-box .i-email, 
+.container-c .input-box1 .i-phone,
+.container-c .input-box1 .i-subject {
+  width: 100%;
+  padding: 20px;
+  border: 3px solid var(--primary);
+  border-radius: 6px;
+  background: transparent;
+}
