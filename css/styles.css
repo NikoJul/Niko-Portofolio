@@ -253,9 +253,11 @@ body {
 
 .container-c {
   text-align: center;
+  padding: 0px 400px;
 }
 
-.container-c .input-box {
+.container-c .input-box,
+.container-c .input-box1{
   display: flex;
   justify-content: space-between;
 }
