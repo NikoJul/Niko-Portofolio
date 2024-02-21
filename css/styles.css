@@ -272,4 +272,13 @@ body {
   border: 3px solid var(--primary);
   border-radius: 6px;
   background: transparent;
+  color: #fff;
+}
+
+.container-c .text-area .textarea {
+  padding: 20px;
+  border: 3px solid var(--primary);
+  border-radius: 6px;
+  background: transparent;
+  color: #fff;
 }
