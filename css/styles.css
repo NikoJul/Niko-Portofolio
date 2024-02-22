@@ -291,3 +291,32 @@ body {
   color: #5f6971;
   width: 40%;
 }
+
+
+/* Media Query */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62%;
+  }  
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  
+  .navbar .navbar-nav {
+    display: none;
+  }
+}
+
