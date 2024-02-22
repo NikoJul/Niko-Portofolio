@@ -14,7 +14,6 @@
 
 body {
   font-family: 'poppins', Sans-Serif;
-  height: 5500px;
   background-color: var(--bg);
   color: #fff;
 }
@@ -281,6 +280,7 @@ body {
   border-radius: 6px;
   background: transparent;
   color: #fff;
+  width: 100%;
 }
 
 .container-c .submit {
@@ -289,4 +289,5 @@ body {
   border-radius: 6px;
   background-color: var(--primary);
   color: #5f6971;
+  width: 40%;
 }
