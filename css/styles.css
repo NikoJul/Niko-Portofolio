@@ -312,11 +312,16 @@ body {
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    
   }
   
   .navbar .navbar-nav {
     display: none;
   }
+  
+  .navbar .navbar-logo a {
+    font-size: 10px;
+  }
+  
 }
 
