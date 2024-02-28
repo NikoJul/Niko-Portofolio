@@ -190,7 +190,7 @@ body {
 }
 
 .portofolio {
-  height: 330vh;
+  height: 100vh;
   width: auto;
   padding: 90px 7% 40px;
 }
@@ -208,7 +208,12 @@ body {
 
 .portofolio .portofolio-content {
   border: 5px solid var(--primary);
-  height: 2400px;
+  height: 550px;
+}
+
+.portofolio .portofolio-content .pb1,
+.portofolio .portofolio-content .pb2 {
+  display: inline-flex;
 }
 
 .portofolio .portofolio-content .pc-1,
@@ -219,10 +224,7 @@ body {
 .portofolio .portofolio-content .pc-6,
 .portofolio .portofolio-content .pc-7,
 .portofolio .portofolio-content .pc-8 {
-  display: flex;
-  padding: 10px;
-  height: 300px;
-  width: 100%;
+  
 }
 
 .portofolio .portofolio-content .pc-1 img,
@@ -233,9 +235,8 @@ body {
 .portofolio .portofolio-content .pc-6 img,
 .portofolio .portofolio-content .pc-7 img,
 .portofolio .portofolio-content .pc-8 img {
-  height: 100%;
-  width: 50%;
-  margin-right: 20px;
+  height: 70%;
+  width: 100px;
 }
 
 .portofolio .portofolio-content .pc-1 p,
@@ -246,8 +247,7 @@ body {
 .portofolio .portofolio-content .pc-6 p,
 .portofolio .portofolio-content .pc-7 p,
 .portofolio .portofolio-content .pc-8 p {
-  text-align: center;
-  width: 50%;
+  display: none;
 }
 
 .container-c {
