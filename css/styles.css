@@ -211,9 +211,9 @@ body {
   height: 550px;
 }
 
-.portofolio .portofolio-content .pb1,
-.portofolio .portofolio-content .pb2 {
-  display: inline-flex;
+.portofolio .portofolio-content .Pb1,
+.portofolio .portofolio-content .Pb2 {
+  display: flex;
 }
 
 .portofolio .portofolio-content .pc-1,
