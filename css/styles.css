@@ -254,7 +254,7 @@ body {
 }
 
 .contact {
-  height: 90vh;
+  height: 100vh;
 }
 
 .container-c {
@@ -297,20 +297,6 @@ body {
   background-color: var(--primary);
   color: #5f6971;
   width: 40%;
-}
-
-.footer {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: var(--primary);
-  align-items: center;
-}
-
-.footer h3 {
-  font-size: 17px;
-  text-align: center;
-  padding: 20px 0 20px 0;
 }
 
 
