@@ -23,7 +23,7 @@ body {
   background-color: transparent;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 5%;
+  padding: 1rem 5%;
   top: 0;
   right: 0;
   left: 0;
@@ -33,7 +33,7 @@ body {
 
 .navbar .navbar-logo {
   color: #fff;
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 
 .navbar .navbar-logo span {
@@ -46,12 +46,11 @@ body {
 }
 
 .navbar .navbar-nav a {
-  font-size: 20px;
+  font-size: 1.4rem;
   color: #fff;
-  margin: 7px;
   position: relative;
   font-weight: 500;
-  padding: 6px 10px;
+  padding: 0.4rem 1rem;
   transition: .5s;
 }
 
@@ -65,9 +64,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 2px solid var(--primary);
-  border-radius: 15px;
-  transform: scale(0) translateY(50px);
+  border-bottom: 0.3rem solid var(--primary);
+  border-radius: 1rem;
+  transform: scale(0) translateY(3rem);
   opacity: 0;
   transition: .5s;
 }
@@ -91,7 +90,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 5%;
-  background-image: url(../img/Niko-bg.png);
+  background-image:;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -189,146 +188,3 @@ body {
   margin-top: 100px;
   margin-left: 50px;
 }
-
-.portofolio {
-  height: 100vh;
-  width: auto;
-  padding: 90px 7% 40px;
-}
-
-.portofolio h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 45px;
-}
-
-.portofolio p {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.portofolio .portofolio-content {
-  height: 550px;
-}
-
-.portofolio .portofolio-content .Pb1,
-.portofolio .portofolio-content .Pb2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.portofolio .portofolio-content .pc-1,
-.portofolio .portofolio-content .pc-2,
-.portofolio .portofolio-content .pc-3,
-.portofolio .portofolio-content .pc-4,
-.portofolio .portofolio-content .pc-5,
-.portofolio .portofolio-content .pc-6,
-.portofolio .portofolio-content .pc-7,
-.portofolio .portofolio-content .pc-8 {
-  padding-bottom: 100px;
-}
-
-.portofolio .portofolio-content .pc-1 img,
-.portofolio .portofolio-content .pc-2 img,
-.portofolio .portofolio-content .pc-3 img,
-.portofolio .portofolio-content .pc-4 img,
-.portofolio .portofolio-content .pc-5 img,
-.portofolio .portofolio-content .pc-6 img,
-.portofolio .portofolio-content .pc-7 img,
-.portofolio .portofolio-content .pc-8 img {
-  height: 150px;
-  width: 200px;
-  border: 2px solid var(--primary);
-  border-radius: 10px;
-}
-
-.portofolio .portofolio-content .pc-1 p,
-.portofolio .portofolio-content .pc-2 p,
-.portofolio .portofolio-content .pc-3 p,
-.portofolio .portofolio-content .pc-4 p,
-.portofolio .portofolio-content .pc-5 p,
-.portofolio .portofolio-content .pc-6 p,
-.portofolio .portofolio-content .pc-7 p,
-.portofolio .portofolio-content .pc-8 p {
-  display: none;
-}
-
-.contact {
-  height: 100vh;
-}
-
-.container-c {
-  text-align: center;
-  padding: 0px 370px;
-}
-
-.container-c .input-box,
-.container-c .input-box1{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.container-c .input-box .i-name,
-.container-c .input-box .i-email, 
-.container-c .input-box1 .i-phone,
-.container-c .input-box1 .i-subject {
-  width: 100%;
-  padding: 20px;
-  border: 3px solid var(--primary);
-  border-radius: 6px;
-  background: transparent;
-  color: #fff;
-}
-
-.container-c .text-area .textarea {
-  padding: 20px;
-  border: 3px solid var(--primary);
-  border-radius: 6px;
-  background: transparent;
-  color: #fff;
-  width: 100%;
-}
-
-.container-c .submit {
-  padding: 10px;
-  border: 3px solid var(--primary);
-  border-radius: 6px;
-  background-color: var(--primary);
-  color: #5f6971;
-  width: 40%;
-}
-
-
-/* Media Query */
-
-/* Laptop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 70%;
-  }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  html {
-    font-size: 62%;
-  }  
-}
-
-/* Mobile Phone */
-@media (max-width: 450px) {
-  html {
-    
-  }
-  
-  .navbar .navbar-nav {
-    display: none;
-  }
-  
-  .navbar .navbar-logo a {
-    font-size: 10px;
-  }
-  
-}
-
