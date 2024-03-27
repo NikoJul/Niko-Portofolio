@@ -186,7 +186,7 @@ body {
 }
 
 .footer p {
-  color: var(--font);
+  color: var(--primary);
   padding: 1rem 0;
   font-size: 1.5rem;
   font-weight: 500;
