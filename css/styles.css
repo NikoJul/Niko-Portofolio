@@ -134,16 +134,17 @@ body {
 
 
 .about {
-  height: 40vh;
+  height: 50vh;
   background-color: var(--primary);
   text-align: center;
+  padding: 3rem 13rem;
 }
 
 .about h1 {
   color: ;
   font-weight: 700;
   font-size: 2.5rem;
-  padding: 2rem 0 1rem;
+  padding: 1rem 0 1rem;
 }
 
 .about h4 {
@@ -161,4 +162,16 @@ body {
   padding: 1.5rem 1rem 0.8rem;
   border-radius: 0.7rem;
   margin: 0 0.5rem;
+}
+
+.footer {
+  background-color: var(--abu);
+  text-align: center;
+}
+
+.footer p {
+  color: var(--bg);
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
