@@ -160,32 +160,3 @@ body {
   color: var(--primary);
   margin-right: 10px;
 }
-
-.about,
-.contact {
-  height: 100vh;
-  width: auto;
-  padding: 90px 7% 40px;
-}
-
-.about h1,
-.contact h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 45px;
-}
-
-.about .about-content {
-  display: flex;
-}
-
-.about .about-content img {
-  width: 600px;
-  height: 600px;
-}
-
-.about .about-content p {
-  text-align: center;
-  margin-top: 100px;
-  margin-left: 50px;
-}
