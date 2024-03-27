@@ -33,8 +33,9 @@ body {
 }
 
 .navbar .navbar-logo {
-  color: #fff;
+  color: var(--abu);
   font-size: 2.2rem;
+  font-weight: 600;
 }
 
 .navbar .navbar-logo span {
@@ -44,13 +45,13 @@ body {
 
 .navbar .navbar-nav {
   display: inline-block;
+  font-weight: 500;
 }
 
 .navbar .navbar-nav a {
   font-size: 1.4rem;
-  color: #fff;
+  color: var(--abu);
   position: relative;
-  font-weight: 500;
   padding: 0.4rem 1rem;
   transition: .5s;
 }
@@ -78,7 +79,7 @@ body {
 }
 
 .navbar .navbar-menu {
-  color: #fff;
+  color: var(--abu);
 }
 
 .navbar .navbar-menu :hover {
@@ -118,13 +119,17 @@ body {
 }
 
 .home .home-content .home-b {
-  width: 300px;
-  height: 50%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
 }
 
 .home .home-content .home-b a {
-  background-color: var(--primary);
-  
+  color: var(--abu);
 }
 
 .home .home-sm {
