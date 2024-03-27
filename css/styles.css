@@ -110,7 +110,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary);
-  margin-top: -1rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -150,22 +150,10 @@ body {
   padding: 0 0 0.8rem;
 }
 
-.about .about-sm {
-  position: absolute;
-  bottom: 40px;
-  width: 170px;
-}
-
-.about .about-sm a {
-  position: relative;
+.about .sos {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 40px;
-  border: 2px solid var(--primary);
-  border-radius: 50%;
-  font-size: 20px;
-  color: var(--primary);
-  margin-right: 10px;
+  color: var(--abu);
+  background-color: var(--primary);
+  width: 3rem;
+  height: 3rem;
 }
