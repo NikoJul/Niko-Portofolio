@@ -1,7 +1,10 @@
 :root {
   --primary: #2f5781;
-  --bg: #aac6dc;
-  --abu: #edeef1;
+  --bg: #ffffff;
+  --abu: #f8f9fb;
+  --font: #c9c9cb;
+  --font1: #a3a3a3;
+  --font2: #9ebeda;
 }
 
 * {
@@ -16,7 +19,7 @@
 body {
   font-family: 'poppins', Sans-Serif;
   background-color: var(--bg);
-  color: var(--abu);
+  color: var(--font);
 }
 
 .navbar {
@@ -33,12 +36,8 @@ body {
 }
 
 .navbar .navbar-logo {
-  color: var(--abu);
   font-size: 2.2rem;
   font-weight: 600;
-}
-
-.navbar .navbar-logo span {
   color: var(--primary);
   font-style: italic;
 }
@@ -50,7 +49,7 @@ body {
 
 .navbar .navbar-nav a {
   font-size: 1.4rem;
-  color: var(--abu);
+  color: var(--font1);
   position: relative;
   padding: 0.4rem 1rem;
   transition: .5s;
@@ -66,9 +65,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 0.3rem solid var(--primary);
+  border-bottom: 0.4rem solid var(--primary);
   border-radius: 1rem;
-  transform: scale(0) translateY(3rem);
+  transform: scale(0) translateY(4rem);
   opacity: 0;
   transition: .5s;
 }
@@ -79,7 +78,7 @@ body {
 }
 
 .navbar .navbar-menu {
-  color: var(--abu);
+  color: var(--font);
 }
 
 .navbar .navbar-menu :hover {
@@ -104,6 +103,7 @@ body {
 .home .home-content h1 {
   font-size: 3.5rem;
   font-weight: 700;
+  color: var(--primary);
 }
 
 .home .home-content h4 {
@@ -118,7 +118,7 @@ body {
   font-size: 1rem;
 }
 
-.home .home-content .home-b {
+.home .home-content .home-R {
   margin-top: 1rem;
   margin-right: 1rem;
   display: inline-block;
@@ -126,10 +126,26 @@ body {
   font-size: 1.2rem;
   background-color: var(--primary);
   border-radius: 0.5rem;
+  border: 0.2rem solid var(--primary);
 }
 
-.home .home-content .home-b a {
-  color: var(--abu);
+.home .home-content .home-R a {
+  color: var(--font);
+}
+
+.home .home-content .home-P {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  background-color: var(--abu);
+  border-radius: 0.5rem;
+  border: 0.2rem solid black;
+}
+
+.home .home-content .home-P a {
+  color: black;
 }
 
 
@@ -170,7 +186,7 @@ body {
 }
 
 .footer p {
-  color: var(--bg);
+  color: var(--font);
   padding: 1rem 0;
   font-size: 1.5rem;
   font-weight: 500;
