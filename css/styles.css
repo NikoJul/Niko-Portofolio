@@ -1,6 +1,7 @@
 :root {
-  --primary: #29cffe;
-  --bg: #091b28;
+  --primary: #2f5781;
+  --bg: #aac6dc;
+  --abu: #edeef1;
 }
 
 * {
@@ -15,7 +16,7 @@
 body {
   font-family: 'poppins', Sans-Serif;
   background-color: var(--bg);
-  color: #fff;
+  color: var(--abu);
 }
 
 .navbar {
